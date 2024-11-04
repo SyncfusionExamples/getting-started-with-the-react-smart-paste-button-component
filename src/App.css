@@ -1,0 +1,46 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/fluent2.css";
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 700px;
+  margin: 0 auto;
+}
+.form-label {
+  margin-bottom: 5px;
+}
+.row-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.form-footer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: right;
+  gap: 15px;
+}
+.form-group {
+  display: grid;
+  gap: 8px;
+}
+.single-row-group {
+  display: grid;
+  gap: 8px;
+}
+.bug-form-container {
+  position: relative;
+  border-radius: 20px;
+  padding: 15px;
+  border: 2px solid rgb(229 231 235 / var(--border-opacity));
+  --border-opacity: 1;
+  max-width: 600px;
+}
