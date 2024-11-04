@@ -14,7 +14,9 @@ Make sure that you have the compatible versions of Visual Studio Code, and NodeJ
 To run this application, you need to clone the getting-started-with-the-react-smart-paste-button-component repository and then navigate to its appropriate path where it has been in your system.
 
 To do so, open the command prompt and run the below commands one after the other.
+
 git clone getting-started-with-the-react-smart-paste-button-component smart-paste-button
+
 cd smart-paste-button
 
 # Installing
